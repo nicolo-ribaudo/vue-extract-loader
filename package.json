@@ -2,9 +2,16 @@
   "name": "vue-extract-loader",
   "version": "0.1.0",
   "description": "Webpack loader to extract a single block from a Vue single-file component",
-  "keywords": [ "vue", "webpack", "loader" ],
+  "keywords": [
+    "vue",
+    "webpack",
+    "loader"
+  ],
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint lib"
+  },
   "author": {
     "name": "Nicolò Ribaudo",
     "email": "nicolo.ribaudo@gmail.com",
@@ -16,5 +23,8 @@
   },
   "bugs": {
     "url": "https://github.com/nicolo-ribaudo/vue-extract-loader/issues"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
   }
 }

@@ -1,0 +1,146 @@
+parserOptions:
+    ecmaVersion: 2016
+
+env:
+    node: true
+
+extends:
+    - eslint:recommended
+
+rules:
+    # Possible Errors
+    no-compare-neg-zero: error
+    no-template-curly-in-string: warn
+
+    # Best Practices
+    array-callback-return: warn
+    block-scoped-var: error
+    curly: [ error, multi-line ]
+    default-case: warn
+    dot-location: [ error, property ]
+    dot-notation: error
+    eqeqeq: error
+    guard-for-in: warn
+    no-alert: warn
+    no-caller: error
+    no-console: 0
+    no-div-regex: error
+    no-eq-null: warn
+    no-eval: error
+    no-extend-native: error
+    no-extra-bind: warn
+    no-extra-label: error
+    no-floating-decimal: error
+    no-implicit-globals: error
+    no-implied-eval: error
+    no-invalid-this: warn
+    no-iterator: error
+    no-lone-blocks: error
+    no-loop-func: warn
+    no-multi-spaces: warn
+    no-multi-str: error
+    no-new: warn
+    no-new-func: warn
+    no-new-wrappers: warn
+    no-octal-escape: error
+    no-param-reassign: error
+    no-proto: warn
+    no-return-assign: error
+    no-return-await: warn
+    no-script-url: warn
+    no-self-compare: warn
+    no-sequences: error
+    no-throw-literal: error
+    no-unmodified-loop-condition: warn
+    no-unused-expressions: warn
+    no-useless-call: warn
+    no-useless-concat: warn
+    no-useless-escape: warn
+    no-useless-return: warn
+    no-with: error
+    prefer-promise-reject-errors: error
+    radix: warn
+    require-await: error
+    wrap-iife: error
+    yoda: error
+
+    # Variables
+    init-declarations: error
+    no-catch-shadow: warn
+    no-label-var: error
+    no-undefined: error
+    no-use-before-define: error
+
+    # Stylistic Issues
+    array-bracket-spacing: [ warn, always ]
+    block-spacing: [ warn, always ]
+    brace-style: [ warn, 1tbs ]
+    camelcase: warn
+    comma-dangle: [ warn, always-multiline ]
+    comma-spacing: [ warn, { before: false, after: true } ]
+    comma-style: [ warn, last ]
+    computed-property-spacing: [ warn, never ]
+    eol-last: [ warn, always ]
+    func-call-spacing: [ warn, never ]
+    func-name-matching: error
+    func-names: [ error, as-needed ]
+    func-style: [ error, declaration, allowArrowFunctions: true ]
+    indent: [ error, 4 ]
+    key-spacing: [ warn, { beforeColon: false, afterColon: true } ]
+    keyword-spacing: [ warn, { before: true, after: true } ]
+    lines-around-directive: [ warn, always ]
+    max-len: [ error, 100 ]
+    new-cap: error
+    new-parens: error
+    newline-before-return: warn
+    newline-per-chained-call: [ warn, ignoreChainWithDepth: 3 ]
+    no-lonely-if: warn
+    no-multi-assign: error
+    no-multiple-empty-lines: warn
+    no-new-object: error
+    no-tabs: error
+    no-trailing-spaces: error
+    no-unneeded-ternary: warn
+    no-whitespace-before-property: error
+    nonblock-statement-body-position: [ error, beside ]
+    #object-curly-newline: [ warn, multiline: true ]
+    object-curly-spacing: [ warn, always ]
+    object-property-newline: [ warn, allowMultiplePropertiesPerLine: true ]
+    one-var: [ error, never ]
+    operator-assignment: warn
+    operator-linebreak: [ warn, before ]
+    padded-blocks:
+        - warn
+        - { blocks: never, classes: always, switches: never }
+    quote-props: [ warn, as-needed ]
+    quotes: [ error, double, allowTemplateLiterals: true ]
+    semi: error
+    semi-spacing: [ warn, { before: false, after: true } ]
+    space-before-blocks: [ warn, always ]
+    space-before-function-paren:
+        - warn
+        - { anonymous: always, named: never, asyncArrow: always }
+    space-in-parens: [ warn, never ]
+    space-infix-ops: [ warn, int32Hint: true ]
+    space-unary-ops: [ warn, { words: true, nonwords: false } ]
+    template-tag-spacing: [ warn, never ]
+    unicode-bom: error
+
+    # ECMAScript 6
+    arrow-body-style: [ error, as-needed ]
+    arrow-parens: [ warn, as-needed, requireForBlockBody: true ]
+    generator-star-spacing: [ warn, { before: false, after: true } ]
+    no-duplicate-imports: error
+    no-useless-computed-key: warn
+    no-useless-constructor: error
+    no-var: error
+    object-shorthand: warn
+    prefer-arrow-callback: [ warn, allowNamedFunctions: true ]
+    prefer-const: warn
+    prefer-numeric-literals: error
+    prefer-rest-params: error
+    prefer-spread: error
+    prefer-template: warn
+    rest-spread-spacing: [ warn, never ]
+    template-curly-spacing: [ warn, never ]
+    yield-star-spacing: [ warn, { before: false, after: true } ]
