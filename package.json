@@ -1,0 +1,20 @@
+{
+  "name": "vue-extract-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader to extract a single block from a Vue single-file component",
+  "keywords": [ "vue", "webpack", "loader" ],
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Nicolò Ribaudo",
+    "email": "nicolo.ribaudo@gmail.com",
+    "url": "https://github.com/nicolo-ribaudo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolo-ribaudo/vue-extract-loader"
+  },
+  "bugs": {
+    "url": "https://github.com/nicolo-ribaudo/vue-extract-loader/issues"
+  }
+}

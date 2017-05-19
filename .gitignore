@@ -1,0 +1,5 @@
+node_modules/*
+.vscode
+
+# yarn.lock should not be committed in libraries
+yarn.lock
