@@ -1,0 +1,18 @@
+{
+    "name": "vue-extract-loader.01-base",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "css-loader": "^0.28.1",
+        "vue-loader": "^12.1.0",
+        "vue-template-compiler": "^2.3.3",
+        "webpack": "^2.5.1"
+    },
+    "dependencies": {
+        "vue": "^2.3.3"
+    }
+}

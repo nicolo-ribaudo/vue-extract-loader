@@ -1,5 +1,7 @@
-node_modules/*
+node_modules
 .vscode
+
+examples/*/dist
 
 # yarn.lock should not be committed in libraries
 yarn.lock
