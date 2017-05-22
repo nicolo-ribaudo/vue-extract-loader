@@ -33,19 +33,10 @@ module.exports = {
             // the root folder of this package.
             // You shouldn't do this in your project.
             "vue-extract-loader": require.resolve("../../"),
-        };
 
-        config.module.rules.push({
-            test: /.vue$/,
-            issuer: path.join(__dirname, "play/index.js"),
-            use: [ {
-                loader: "babel-loader",
-                options: { presets: [ "es2015" ] }
-            }, {
-                loader: "vue-extract-loader",
-                options: { block: "play" },
-            } ],
-        });
+            // You can alias the loader to avoid repeating the configuration query
+            "vue-play-loader": "vue-extract-loader?block=play",
+        };
 
         return config;
     },
