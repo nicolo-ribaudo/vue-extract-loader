@@ -2,7 +2,7 @@ node_modules
 .vscode
 
 examples/*/dist
-examples/*/dist-play
+examples/*/dist-*
 
 # yarn.lock should not be committed in libraries
 yarn.lock
