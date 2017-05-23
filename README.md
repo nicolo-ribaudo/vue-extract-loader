@@ -42,3 +42,4 @@ You can either use this loader inline, or add it to your `webpack.config.js` fil
 01. [Basic](./examples/01-base/) - A basic example which shows how to use this loader.
 02. [vue-play](./examples/02-play) - Shows how to define an alias for the loader, so that you can `import "vue-play-loader!./component.vue"`.
 03. [Testing](./examples/03-play) - Sets the loader in `webpack.config.js`, without applying it to too much paths. (see [the previous warning](#warning-inline-loader))
+04. [Src import](./examples/04-src-import/) - This loader also works if the custom block specifies its value using the `src` attribute.
