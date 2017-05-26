@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+    - "7"
+
+script:
+    # Output useful info for debugging.
+    - node --version
+    - npm --version
+
+    - npm run lint
