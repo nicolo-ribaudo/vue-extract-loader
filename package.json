@@ -10,7 +10,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint lib"
+    "lint": "eslint lib test",
+    "test": "ava"
   },
   "author": {
     "name": "Nicolò Ribaudo",
@@ -25,7 +26,11 @@
     "url": "https://github.com/nicolo-ribaudo/vue-extract-loader/issues"
   },
   "devDependencies": {
-    "eslint": "^3.19.0"
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0",
+    "memory-fs": "^0.4.1",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.6.1"
   },
   "peerDependencies": {
     "vue-template-compiler": "^2.3.3"

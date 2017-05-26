@@ -8,3 +8,4 @@ script:
     - npm --version
 
     - npm run lint
+    - npm test -- --verbose
